@@ -1,0 +1,52 @@
+---
+permalink: "/privacy/"
+layout: singlePage
+title:  "Privacy & Cookie Policy"
+---
+
+<section class="bg-primary text-white" id="about">
+      <div class="container text-center">
+        <h2 class="mb-4">Privacy & Cookie Policy</h2>
+       </div> 
+</section>
+
+<section id="privacy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+		  
+          
+<h3>Privacy Notice</h3>
+
+<p>The OpenEyes Foundation is a registered UK Charity led by clinicians to promote open systems and standards for digital health, including the development and promotion of the OpenEyes open source progrmme. OpenEyes is committed to protecting your privacy. At no time is your private information shared with third parties that have no right to that information. All collected information will be protected consistent with the principles of the Data Protection Act 1998. Below are examples of what we do with your information. openeyes.org.uk contains hyperlinks to websites owned and operated by third parties. These third party websites have their own privacy policies, and are also likely to use cookies, and we therefore urge you to review them. They will govern the use of personal information you submit, which may also be collected by cookies whilst visiting these websites. We do not accept any responsibility or liability for the privacy practices of such third party websites and your use of such websites is at your own risk.</p>  
+
+<h3>When Accessing openeyes.org.uk</h3>    
+
+<p>We may collect and store information for statistical purposes. The following are representative of the types of information that may be collected and stored about your visit:</p>
+<ul>
+<li>the Internet domain and Internet Protocol (IP) address from which you access openeyes.org.uk;</li>  
+<li>the type of Internet browser and the operating system of the computer you use to access our site;</li>  
+<li>the date and time you visit our site;</li>  
+<li>if you linked to our Web site from another Web site, the address of that Web site;</li>  
+<li>and, if you linked to our Web site from a search Web site, the address of that Web site and the search term you used.</li>  
+</ul>
+
+<h3>When Sending Us Email: </h3> 
+
+<p>When you send us an electronic mail (email) message (e.g. to info@openeyes.org.uk), you may be sending personal information such as your name, address, and email address. We may store this information in order to respond to your request or otherwise resolve the subject matter of the email. Under limited circumstances, including requests from government, we may be required by law to disclose the information you submit. Remember that email is not necessarily secure. If your communication is very sensitive, you may want to contact us via an alternate means..</p>  
+
+<h3>When Searching and Browsing: </h3> 
+
+<p>We will collect and store information for statistical purposes. For example, when you login to the openeyes.org.uk site to search and browse for information, we will automatically gather and store certain information about your visit such as the number of logins, pages visited, and articles viewed.</p>  
+
+<h3>When Providing Feedback:</h3>  
+
+<p>When you provide feedback about openeyes.org.uk you may be sending personal information such as your name, address, and email address. We may store this information in order to respond to your request or otherwise resolve the subject matter of the email. </p> 
+
+<h3>Cookie Notice:</h3>  
+
+<p>A cookie is a text file placed on the hard drive of a computer by some Web pages or Web servers. Cookies cannot run programs or deliver viruses to your computer. They are uniquely assigned to a visitor and can only be read by a Web server in the domain that issued the cookie. You can accept cookies (generally their browser's default setting) or decline them through your browser settings. Persistent cookies remain on a computer's hard drive until the visitor deletes them. Session cookies are deleted automatically when you close your browser. In compliance with Information Commissioners Office, the openeyes.org.uk site does not set persistent cookies on visitors' computers. </p> 
+		  </div>
+		 </div>
+		</div>
+    </section>

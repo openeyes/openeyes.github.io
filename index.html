@@ -1,0 +1,153 @@
+---
+layout: default
+---
+  <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase text-dark">
+              <strong>openeyes</strong>
+            </h1>
+             <h3 class="text-lowercase text-dark">
+              electronic patient records
+            </h3>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded text-dark mb-5">OpenEyes™ is an Electronic Medical Record (EMR) application for ophthalmology, which enables clinicians to access all of the information they need about their patients in one place. We, the OpenEyes Foundation are, and always will be, clinically led, to ensure that the application only ever reflects what is most useful to our fellow clinicians. We are a registered charity, and provide the software on an open source basis, free of charge.</p>
+
+
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#whatIs">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="whatIs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">What Is OpenEyes?</h2>
+            <hr class="my-4">
+
+                        <p class="mb-0">
+                        OpenEyes™ is an electronic medical record application for ophthamology, developed with contributions from a range of hospitals, institutions, academic departments, companies and individuals. Intuitive to use and fast, it runs in a web browser to ensure that it can be accessed from just about any device in any location. OpenEyes™ will always be provided free-of-charge under and open source license, making it a cost-effective option for eye care, and, perhaps more importantly, ensuring that its development will always prioritise what clincians really need.</p>
+<br>
+<p>While OpenEyes can be downloaded and used free of charge anywhere in the world, we recommend that installations in a clinical environment are handled through our commercial partner, <a target="_blank" href="https://www.abehr.com/">AB EHR Digital</a>. AB EHR Digital will ensure that you clinical data integrates with hospital workflows and PAS systems and that the connections to devices such as OCT machines or visual field devices are robust. You can contact AB EHR through their website to arrange a consultation or demonstration.</p>
+<br>
+<p>All users of OpenEyes can also become members of our development steering group, participating in online and offline discussions to identify and prioritise the development roadmap for the application. To learn more about membership, please email us at  <a href="mailto:info@openeyes.org.uk">info@openeyes.org.uk</a> or for more detail about the software, and to see how it looks for users, see our guide <a href="oedetail">here</a></p>
+
+
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    
+    <section id="about" style="background-color:#a9b9b2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg12 mx-auto text-center">
+                        <h1 class="text-uppercase text-dark">
+              <strong>Who We Are</strong>
+            </h1>
+            <h2 class="section-heading text-dark">Our Trustees</h2>
+                        
+            <hr class="my-4">
+            <p class="mb-0">The Foundation is led by a board of Trustees who represent decades of expertise in clinical ophthamology, combined with deep and detailed understanding of software and how it contributes to better, safer care for patients.</p>
+
+{% assign rows = site.members.size | divided_by: 3.0 | ceil %}
+{% for i in (1..rows) %}
+
+  <div class="row" style="margin-top: 20px">
+
+  {% assign offset = forloop.index0 | times: 3 %}
+  {% for member in site.members limit:3 offset:offset %}
+ 
+
+          <div class="col-sm-4">
+            <div class="card" style="height: 100%;">
+             <div class="card-header"><strong>{{ member.name }}</strong> <p><em>{{ member.title }}</em> </p></div>
+            <div class="card-body">
+            <img src="{{ member.photo }}" style="margin:10px" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+            
+
+              </div>
+           
+          </div>
+        </div>
+
+    </section>
+
+    <section id="services" style="background-image:url(../img/home-bg2.jpg);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">What We Do</h2>
+            <hr class="my-4">
+                        <p class="mb-0">The OpenEyes™ Foundation is a not-for-profit charity set up to ensure that the future development of OpenEyes™ continues to meet the very highest clinical standards. Our main focus is on:</p>
+                        <br>
+
+<ul class="list-unstyled">
+<li>- Organisation of the OpenEyes™ community via charitable membership of the Foundation</li>
+<li>- Commissioning OpenEyes™ development for the wider community</li>
+<li>- Managing the OpenEyes™ public (GPL) and commercial licenses</li>
+<li>- Managing and protecting OpenEyes™’ intellectual property</li>
+<ul>
+<br>
+<p>Continuing this development under the guidance of a charitable, not for profit body is an essential part of our collaborative, public service ethos. OpenEyes cannot, in itself, be sold to a third party ensuring that users have security and can influence development.</p>
+
+
+  <br>
+
+<p>One of the most important roles of the Foundation is to commission a principal commercial supplier for OpenEyes. While OpenEyes can be downloaded and used without charge, integration in modern hospital environments requires technical support and maintenance to ensure compliance with good clinical practice. The current supplier for OpenEyes is AB EHR Digital, a company based in the UK and Australia with a strong commitment to Open Source solutions in healthcare. The Foundation directs commercial enquiries regarding installation and support to AB EHR Digital and works with AB EHR Digital to ensure that the most cost effective solutions are applied. AB EHR Digital's role does not exclude the addition of code from outside suppliers or individuals.</p><br>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+<!--
+  Disabled latest news currently
+	
+<section class="text-white" id="news" style="background-color:#ffffff">
+      <div class="container text-center">
+		  <div class="col-lg-10 mx-auto">
+			<h2 class="mb-4 text-dark">Featured Stories</h2>
+			<hr class="my-4"> 
+				<div class="row"> 
+
+				
+							<div class="row" id="stories">
+							 {% for post in site.posts limit:3 %}
+							  <div class="col-md-4">
+								  <div class="thumbnail">
+								  <a href="{{ post.url }}">
+								  <img  src="{{ post.thumbnail }}" style="width:100%" alt="{{ post.title }}">
+									<div class="caption text-dark"><br>
+									  <p>{{ post.title }}</p> 
+									</div>
+								  </a>
+								</div>
+							  </div>
+							{% endfor %}
+							</div>
+
+
+
+				</div>
+			</br>	 
+			<a class="btn btn-light btn-xl sr-button" href="{{ '/featured-stories/' }}">More Stories</a>
+		</div>
+    </div>
+</section>
+	
+  -->
