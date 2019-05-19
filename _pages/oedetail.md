@@ -12,7 +12,7 @@ title:  "A look at OpenEyes"
              <center><h2 class="section-heading">OpenEyes Features</h2></center>
             <hr class="my-4">
                <p class="mb-0">
-                  OpenEyes V3 is fast and fun to use. We can only highlight some of the more important features in this section. To access a test version and try out these features please go to the <a href="#contact">contact section</a> this site.</p><br />
+                  OpenEyes V3 is fast and fun to use. We can only highlight some of the more important features in this section. To access a test version and try out these features please go to the <a href="#contact">contact section</a> on this site.</p><br />
                   <!-- Page Content -->
 <div class="container">
   <div class="row text-center">
