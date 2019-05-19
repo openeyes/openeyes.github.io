@@ -455,7 +455,7 @@ title:  "A look at OpenEyes"
 
 
 <!-- 11. Lightning Viewer Container --> 
-<section id="lightning-viewer" style="background-color:#a9b9b2" >
+<section id="lightning-viewer" style="background-color:#fff" >
 <div class="container">
 
   
@@ -487,7 +487,7 @@ title:  "A look at OpenEyes"
 
 
 <!-- 12. Dashboard Container --> 
-<section id="oescape" style="background-color:#fff" >
+<section id="oescape" style="background-color:#a9b9b2" >
 <div class="container">
 
   
