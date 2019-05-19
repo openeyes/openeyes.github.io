@@ -19,7 +19,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #007bff;
-  --secondary: #6c757d;
+  --secondary: #545b62;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -4342,6 +4342,15 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+}
+
+#feature-overview .card {
+  background-color: #1F2734;
+  color: #fff;
+}
+
+#feature-overview .card a {
+  color:#fff;
 }
 
 .card > hr {

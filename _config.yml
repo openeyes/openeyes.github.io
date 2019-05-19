@@ -9,7 +9,7 @@
 title: OpenEyes
 email: info@openeyes.org.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Code4Health is an initiative supported by NHS England and NHS Digital to enable the best use of digital tools and technology to deliver safe, high quality, efficient and compassionate care
+  OpenEyes™ is an Electronic Medical Record (EMR) application for ophthalmology, which enables clinicians to access all of the information they need about their patients in one place.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://openeyes.github.io/" # the base hostname & protocol for your site
 twitter_username: openeyes_oef
