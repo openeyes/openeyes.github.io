@@ -119,7 +119,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <div class="card-body">
           <h4 class="card-title">
-            <a href="#audit" class="feature">Analytics-Audit</a>
+            <a href="#audit" class="feature">Analytics Audit</a>
           </h4>
          </div>
       </div>
@@ -522,7 +522,7 @@ title:  "A look at OpenEyes"
 <div class="container">
 
   
-  <center><h2 class="mb-4">Analytics-Audit<br /></h2>
+  <center><h2 class="mb-4">Analytics Audit<br /></h2>
        <hr class="my-4"></center>
 
   <div class="row">
