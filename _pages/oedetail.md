@@ -645,7 +645,7 @@ title:  "A look at OpenEyes"
 <div class="container">
 
   
-  <center><h2 class="mb-4">Virual Clinics<br /></h2>
+  <center><h2 class="mb-4">Virtual Clinics<br /></h2>
        <hr class="my-4"></center>
 
 
