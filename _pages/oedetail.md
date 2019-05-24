@@ -654,7 +654,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <a class="portfolio-box" href="/img/features/fullsize/l-virtual-clinics-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-virtual-clinics-lg.jpg" alt=""></a>
         <div class="card-body">
-          <p class="card-text">Virtual review is a key function supported by OpenEyes. it has a rich set of tools to create virtual review work list and annotate comments. You can customise your check lists and automate prescriptions and correspondence. In the work list view you can see the steps in the review process and even undo steps if further review is needed.</p>
+          <p class="card-text">Virtual review is a key function supported by OpenEyes. It has a rich set of tools to create a virtual review work list and annotate comments. You can customise your check lists and automate prescriptions and correspondence. In the work list view you can also see the steps in the review process and even undo steps if further review is needed.</p>
         </div>
       </div>
     </div>
