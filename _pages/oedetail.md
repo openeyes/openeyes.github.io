@@ -283,7 +283,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <a class="portfolio-box" href="/img/features/fullsize/r-eyedraw-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/r-eyedraw-lg.jpg" alt=""></a>
         <div class="card-body">
-          <p class="card-text">OpenEyes provides a rich graphical set of tools (Eyedraw) to document the appearance of the eye. These serve as visual metaphors for the eye examination. The drawing objects are called doodles which can be used to make an automatic diagnosis. The anterior segment eyedraw links enface and side views to document anterior chamber pathology, in this case, thinning of the cornea.</p>
+          <p class="card-text">OpenEyes provides a rich graphical set of tools (Eyedraw) to document the appearance of the eye. These serve as visual metaphors for the eye examination. The drawing objects are called doodles which can be used to make an automatic diagnosis. The anterior segment eyedraw links en face and side views to document anterior chamber pathology, in this case, thinning of the cornea.</p>
         </div>
       </div>
     </div>
@@ -291,7 +291,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <a class="portfolio-box" href="/img/features/fullsize/l-eyedraw-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-eyedraw-lg.jpg" alt=""></a>
         <div class="card-body">
-          <p class="card-text">OpenEyes has over 150 doodles that  can be used to describe complex pathologies. In this example the patient has multiple retinal pathologies which include extensive laser photocoagulation to the right retina. All doodles are selected with a single mouse click and automatically generate text to be included in the examination.</p>
+          <p class="card-text">OpenEyes has over 150 doodles that can be used to describe complex pathologies. In this example the patient has multiple retinal pathologies which include extensive laser photocoagulation to the left  retina. All doodles are selected with a single mouse click which automatically generates text to be included in the examination.</p>
         </div>
       </div>
     </div>
@@ -508,7 +508,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <a class="portfolio-box" href="/img/features/fullsize/r-oescape-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/r-oescape-lg.jpg" alt=""></a>
         <div class="card-body">
-          <p class="card-text">The OEscape plots can be linked to the display of imaging or visual field data. For example, in medical retina- as the cursor is moved along the visual acuity/ retinal thickness timeline, the OCT scan that matches a selected time point is displayed. The OCT scan refresh rates easily matches the speed of the cursor movement to provide both you and your patient a dynamic view of treatment progress.</p>
+          <p class="card-text">The OEscape plots can be linked to the display of imaging or visual field data. For example, in medical retina- as the cursor is moved along the visual acuity/ retinal thickness timeline, the OCT scan that matches a selected time point is displayed. The OCT scan refresh rate easily matches the speed of the cursor movement to provide both you and your patient a dynamic view of treatment progress.</p>
         </div>
       </div>
     </div>
@@ -600,7 +600,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <a class="portfolio-box" href="/img/features/fullsize/r-colour-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/r-colour-lg.jpg" alt=""></a>
         <div class="card-body">
-          <p class="card-text">Or as grey mode. The choice is yours and will be fixed to your user settings. The change is just a click and you can flip between themes during an examination.</p>
+          <p class="card-text">Or as grey mode. The choice is yours and will be fixed to your user settings. The change can be made with a single click allowing you to flip between themes during an examination.</p>
         </div>
       </div>
     </div>
@@ -662,7 +662,7 @@ title:  "A look at OpenEyes"
       <div class="card h-100">
         <a class="portfolio-box" href="/img/features/fullsize/r-virtual-clinics-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/r-virtual-clinics-lg.jpg" alt=""></a>
         <div class="card-body">
-          <p class="card-text">OpenEyes provides a virtual review tool palette that sits above the examination event and can be used to capture review comments, create correspondence and prescriptions and formulate a management plan. A floating scratch pad allows on the fly notes to be taken that can be pasted in the virtual review commentary</p>
+          <p class="card-text">OpenEyes provides a virtual review tool palette that sits above the examination event and can be used to capture review comments, create correspondence and prescriptions and formulate a management plan. A floating scratch pad allows notes to be taken during a virtual review that can be pasted into the virtual review outcome summary.</p>
         </div>
       </div>
     </div>
