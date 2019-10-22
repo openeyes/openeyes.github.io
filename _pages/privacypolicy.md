@@ -1,6 +1,6 @@
 ---
 permalink: "/privacy/"
-layout: singlePage
+layout: default
 title:  "Privacy & Cookie Policy"
 ---
 
@@ -18,7 +18,7 @@ title:  "Privacy & Cookie Policy"
           
 <h3>Privacy Notice</h3>
 
-<p>The OpenEyes Foundation is a registered UK Charity led by clinicians to promote open systems and standards for digital health, including the development and promotion of the OpenEyes open source progrmme. OpenEyes is committed to protecting your privacy. At no time is your private information shared with third parties that have no right to that information. All collected information will be protected consistent with the principles of the Data Protection Act 1998. Below are examples of what we do with your information. openeyes.org.uk contains hyperlinks to websites owned and operated by third parties. These third party websites have their own privacy policies, and are also likely to use cookies, and we therefore urge you to review them. They will govern the use of personal information you submit, which may also be collected by cookies whilst visiting these websites. We do not accept any responsibility or liability for the privacy practices of such third party websites and your use of such websites is at your own risk.</p>  
+<p>The Apperta Foundation is a non-profit community interest company, led by clinicians to promote open systems and standards for digital health, including the development and promotion of the OpenEyes™ open source progrmme. OpenEyes is committed to protecting your privacy. At no time is your private information shared with third parties that have no right to that information. All collected information will be protected consistent with the principles of the Data Protection Act 1998. Below are examples of what we do with your information. openeyes.org.uk contains hyperlinks to websites owned and operated by third parties. These third party websites have their own privacy policies, and are also likely to use cookies, and we therefore urge you to review them. They will govern the use of personal information you submit, which may also be collected by cookies whilst visiting these websites. We do not accept any responsibility or liability for the privacy practices of such third party websites and your use of such websites is at your own risk.</p>  
 
 <h3>When Accessing openeyes.org.uk</h3>    
 
