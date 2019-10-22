@@ -4,7 +4,7 @@ layout: default
 title:  "Privacy & Cookie Policy"
 ---
 
-<section class="bg-primary text-white" id="about">
+<section style="background-color:#a9b9b2" id="about">
       <div class="container text-center">
         <h2 class="mb-4">Privacy & Cookie Policy</h2>
        </div> 
