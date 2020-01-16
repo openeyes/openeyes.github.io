@@ -1,5 +1,5 @@
 ---
 name: Prof. James Morgan
 photo: '/img/James.jpg'
-title: Executive Chair
+title: Apperta OpenEyes Committee Chair
 ---
