@@ -22,13 +22,13 @@ layout: default
       </div>
     </header>
 
+<!-- BEGIN WHAT IS SECTION -->
 
-
-    <section id="whatIs" style="background-color:#a9b9b2">
+    <section id="about" style="background-color:#a9b9b2">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-justify">
-            <center><h2 class="section-heading">What Is OpenEyes™</h2></center>
+            <center><h2 class="section-heading">OpenEyes™ the leading open source EPR for Ophthamology</h2></center>
             <hr class="my-4">
 
                         <p class="mb-0">
@@ -40,16 +40,46 @@ layout: default
 
 <p>All users of OpenEyes™ can become members of our development community, participating in online and offline discussions to identify and prioritise the OpenEyes™ development roadmap. To learn more about membership, please call or email us at <a href="mailto:info@openeyes.org.uk">info@openeyes.org.uk</a> and for a more detailed look at OpenEyes™, click the button below.</p>
 
-<center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">OpenEyes™ Features</a></center>
+              <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Find Out More</a></center>
           </div>
         </div>   
       </div>
     </section>
+<!-- /END WHAT IS SECTION -->
+
+<!-- BEGIN GOVERNANCE SECTION -->
+  <section id="services" style="background-image:url(../img/home-bg2.jpg);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-justify">
+            <center><h2 class="section-heading">Governance</h2>
+            <hr class="my-4"></hr></center>
+
+            <p>OpenEyes™ is managed by the <a href="http://apperta.org" target="_blank">Apperta Foundation</a> which protects the intellectual property of OpenEyes™ and ensures that its availability is guaranteed, without compromise for the clinical community. The Apperta Foundation is the custodian of OpenEyes:</p><br>
+                          
+              <ul class="list">     
+                        <li> Supporting and growing the OpenEyes™ community </li>
+                        <li> Prioritise and commission OpenEyes™ development</li>
+                        <li> As copyright and IP owner, publishing the source code</li> 
+                        <li> Growing the accredited professional services partner network</li>
+              </ul>          
+<br>
+
+<p>Continuing this development as a not for profit body is an essential part of our collaborative, public service ethos. OpenEyes™ cannot, in itself, be sold to a third party ensuring that users have security and can influence development. The OpenEyes™ community manage the design and development of future versions of OpenEyes™ in response to feedback.</p><br>
+          </div>
+          
+        </div>
+      <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a></center>
+      </div>
+    </section>
+<!-- /END GOVERNANCE SECTION -->
 
 <section id="portfolio" style="background-color:#a9b9b2">
     <div class="container-fluid text-center">
         <!--Examination Feature -->
 	        <div class="col-lg-10 mx-auto">
+             <center><h2 class="section-heading">Key Features</h2>
+            <hr class="my-4"></hr></center>
             <div class="row">      
               <div class="col-md-4" style="padding-bottom: 20px">  
                 <a class="portfolio-box" href="img/features/fullsize/l-examination-event-lg.jpg">
@@ -157,39 +187,49 @@ layout: default
       
           <!--/Examination Feature -->
           </div>
+          <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="{{ '/oedetail' }}">Features In Depth</a></center>
           </div>
           </div>
       </section>
-    <section id="button-only" style="background-color:#a9b9b2" style="padding-top:10px">
-       <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="{{ '/oedetail' }}">Features In Depth</a></center>
-    </section>
 
-  <section id="services" style="background-image:url(../img/home-bg2.jpg);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-justify">
-            <center><h2 class="section-heading">Governance</h2>
-            <hr class="my-4"></hr></center>
+    <!--   Hide when no news-->   
+<!-- START NEWS SECTION -->
+{% assign psize = site.posts | size %}
+{% if psize == 0 %} 
+{% else %}
+<section class="text-white" id="news" style="background-color:#ffffff">
+      <div class="container text-center">
+		  <div class="col-lg-10 mx-auto">
+			<h2 class="mb-4 text-dark">OpenEyes™ News</h2>
+			<hr class="my-4"> 
+				<div class="row"> 
+							<div class="row" id="stories">
+							 {% for post in site.posts limit:3 %}
+							  <div class="col-md-4">
+								  <div class="thumbnail">
+								  <a href="{{ post.url }}">
+								  <img  src="{{ post.thumbnail }}" style="width:100%" alt="{{ post.title }}">
+									<div class="caption text-dark"><br>
+									  <p>{{ post.title }}</p> 
+									</div>
+								  </a>
+								</div>
+							  </div>
+							{% endfor %}
+							</div>
 
-            <p>OpenEyes™ is managed by the <a href="http://apperta.org" target="_blank">Apperta Foundation</a> which protects the intellectual property of OpenEyes™ and ensures that its availability is guaranteed, without compromise for the clinical community. The Apperta Foundation is the custodian of OpenEyes:</p><br>
-                          
-              <ul class="list">     
-                        <li> Supporting and growing the OpenEyes™ community </li>
-                        <li> Prioritise and commission OpenEyes™ development</li>
-                        <li> As copyright and IP owner, publishing the source code</li> 
-                        <li> Growing the accredited professional services partner network</li>
-              </ul>          
-<br>
+				</div>
+			</br>	 
+			<a class="btn btn-light btn-xl sr-button" href="{{ '/featured-stories/' }}">More Stories</a>
+		</div>
+    </div>
+</section>
+{% endif %}
 
-<p>Continuing this development as a not for profit body is an essential part of our collaborative, public service ethos. OpenEyes™ cannot, in itself, be sold to a third party ensuring that users have security and can influence development. The OpenEyes™ community manage the design and development of future versions of OpenEyes™ in response to feedback.</p><br>
-          </div>
-          
-        </div>
-      <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a></center>
-      </div>
-    </section>
+  <!-- /END NEWS SECTION -->
 
-<section id="about" style="background-color:#a9b9b2">
+<!-- BEGIN WHO WE ARE SECTION -->
+<section id="who-we-are" style="background-color:#a9b9b2">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto text-center">
@@ -233,40 +273,85 @@ layout: default
 
     </section>
 
+<!-- /END WHO WE ARE SECTION -->
 
-<!--
-  Disabled latest news currently
-	
-<section class="text-white" id="news" style="background-color:#ffffff">
+  <!-- START PRODUCT USERS SECTION -->
+
+    <section class="bg-white text-black" id="implementations">
       <div class="container text-center">
-		  <div class="col-lg-10 mx-auto">
-			<h2 class="mb-4 text-dark">Featured Stories</h2>
-			<hr class="my-4"> 
-				<div class="row"> 
-
-				
-							<div class="row" id="stories">
-							 {% for post in site.posts limit:3 %}
-							  <div class="col-md-4">
-								  <div class="thumbnail">
-								  <a href="{{ post.url }}">
-								  <img  src="{{ post.thumbnail }}" style="width:100%" alt="{{ post.title }}">
-									<div class="caption text-dark"><br>
-									  <p>{{ post.title }}</p> 
-									</div>
-								  </a>
-								</div>
-							  </div>
-							{% endfor %}
-							</div>
-
-
-
-				</div>
-			</br>	 
-			<a class="btn btn-light btn-xl sr-button" href="{{ '/featured-stories/' }}">More Stories</a>
-		</div>
-    </div>
-</section>
+	  <div class="col-lg-10 mx-auto">
+      
+        <!-- ADD CODE when user hovers--><h2 class="mb-4">Some of our OpenEyes™ </br>Enterprise Implementations</h2>
+		<hr class="my-4">
+		<div class="row"> 
+		<p align="left"></p>
+<div class="row">
+   
+        {% for oeusers in site.oeusers %}
+        {% if oeusers.type contains "Enterprise" %}
+    <div class="col-md-4" style="padding-bottom: 20px">
+      
 	
-  -->
+		  <a class="portfolio-box" href="{{ oeusers.www }}" target="_blank">
+			<img class="img-fluid" src="{{ oeusers.thumbnail }}" alt="{{ oeusers.name }}" style="width:100%">			
+				<div class="portfolio-box-caption">
+					<div class="portfolio-box-caption-content">
+						  <div class="project-category text-faded">
+							{{ oeusers.name }}
+						  </div>
+						  <div class="project-name">
+							{{ oeusers.version }}
+						  </div>
+					</div>
+				</div>
+            </a>
+           
+          </div>
+           {% endif %}
+          {% endfor %}
+
+        </div>
+
+</div>
+</section>
+ <section class="text-black" id="community-users" style="background-color:#a9b9b2">
+      <div class="container text-center">
+	  <div class="col-lg-10 mx-auto">
+        <h2 class="mb-4">Some of our OpenEyes™ </br>Community Implementations</h2>
+		<hr class="my-4">
+		<div class="row"> 
+		<p align="left"></p>
+<div class="row">
+   
+        {% for oeusers in site.oeusers %}
+        {% if oeusers.type contains "Community" %}
+    <div class="col-md-4" style="padding-bottom: 20px">
+      
+	
+		  <a class="portfolio-box" href="{{ oeusers.www }}" target="_blank">
+			<img class="img-fluid" src="{{ oeusers.thumbnail }}" alt="{{ oeusers.name }}" style="width:100%">			
+				<div class="portfolio-box-caption">
+					<div class="portfolio-box-caption-content">
+						  <div class="project-category text-faded">
+							{{ oeusers.name }}
+						  </div>
+						  <div class="project-name">
+							{{ oeusers.version }}
+						  </div>
+					</div>
+				</div>
+            </a>
+           
+          </div>
+           {% endif %}
+          {% endfor %}
+        </div>
+
+</div>
+       </br>
+</br>	  
+</div>
+      </div>
+    </section>
+
+    <!-- /END PRODUCT USERS SECTION -->

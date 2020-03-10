@@ -9,12 +9,21 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ site.url }}#whatIs">What is OpenEyes™</a>
+            <a class="nav-link js-scroll-trigger" href="{{ site.url }}#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="{{ site.url }}#services">Governance</a>
             </li>
-
+            {% assign psize = site.posts | size %}
+            {% if psize == 0 %} 
+            {% else %}
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ site.url }}#news">News</a>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ site.url }}#implementations">Implementations</a>
+            </li>
              <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="{{ site.url }}#contact">Contact</a>
             </li>
