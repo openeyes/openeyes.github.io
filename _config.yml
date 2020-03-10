@@ -20,6 +20,8 @@ collections:
   - directors
   - members
   - products
+  - oeusers
+
 
 # Build settings
 markdown: kramdown
