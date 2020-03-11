@@ -16,7 +16,7 @@ layout: default
           <div class="col-lg-8 mx-auto text-justify">
             <p class="text-faded text-dark mb-5" >OpenEyes™ is the leading open source electronic patient record (EPR) for ophthalmology. It has been designed by clinicians to be fast in delivering content, fast to navigate and easy (and fun) to use. We benefit from from a large and growing body of enthusiastic clinicians determined to make OpenEyes™ the EPR that will help you deliver data-driven patient care in the best way possible. OpenEyes™ is owned by the community and not by any individual or corporate entity. It can be customised to suit local needs and will scale to connect, seamlessly, primary and secondary eye care.</p>
 
-            <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#whatIs">Find Out More</a></center>
+            <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a></center>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ layout: default
 
 <!-- BEGIN WHAT IS SECTION -->
 
-    <section id="about" style="background-color:#a9b9b2">
+    <section id="about" style="background-color:#8c8c8c">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-justify">
@@ -48,7 +48,7 @@ layout: default
 <!-- /END WHAT IS SECTION -->
 
 <!-- BEGIN GOVERNANCE SECTION -->
-  <section id="services" style="background-image:url(../img/home-bg2.jpg);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
+  <section id="governance" style="background-image:url(../img/home-bg2.jpg);background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-justify">
@@ -69,12 +69,13 @@ layout: default
           </div>
           
         </div>
-      <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a></center>
+      <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Find Out More</a></center>
       </div>
     </section>
 <!-- /END GOVERNANCE SECTION -->
 
-<section id="portfolio" style="background-color:#a9b9b2">
+<section id="features" style="background-color:#8c8c8c">
+<section id="portfolio" style="background-color:#8c8c8c">
     <div class="container-fluid text-center">
         <!--Examination Feature -->
 	        <div class="col-lg-10 mx-auto">
@@ -186,11 +187,16 @@ layout: default
               </a>                   
       
           <!--/Examination Feature -->
-          </div>
-          <center><a class="btn btn-primary btn-xl js-scroll-trigger" href="{{ '/oedetail' }}">Features In Depth</a></center>
-          </div>
-          </div>
+          </div></div></div> 
+          
       </section>
+
+<section class="page-section text-white" style="background-color:#8c8c8c">
+  <div class="container text-center">
+      <center><a class="btn btn-primary btn-xl" href="{{ '/oedetail' }}">Features In Depth</a></center>
+      </div>
+</section>
+</section>
 
     <!--   Hide when no news-->   
 <!-- START NEWS SECTION -->
@@ -220,26 +226,28 @@ layout: default
 
 				</div>
 			</br>	 
-			<a class="btn btn-light btn-xl sr-button" href="{{ '/featured-stories/' }}">More Stories</a>
+		
 		</div>
     </div>
+    </section>
+    <a class="btn btn-light btn-xl sr-button" href="{{ '/featured-stories/' }}">More Stories</a>
 </section>
 {% endif %}
 
   <!-- /END NEWS SECTION -->
 
 <!-- BEGIN WHO WE ARE SECTION -->
-<section id="who-we-are" style="background-color:#a9b9b2">
+<section id="who-we-are" class="text-white bg-dark">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto text-center">
-                       <center> <h1 class="text-uppercase text-dark">
+                       <center> <h1 class="text-uppercase text-white">
               <strong>Who We Are</strong>
             </h1>
-            <h2 class="section-heading text-dark">Apperta OpenEyes™ Committee</h2></center>
+            <h2 class="section-heading text-white">Apperta OpenEyes™ Committee</h2></center>
                         
             <hr class="my-4">
-            <p class="text-justify">The Apperta OpenEyes™ Committee comprises clinicians, informaticians and IT experts who combine in-depth knowledge of clinical ophthalmology with a deep and detailed understanding of software who oversee OpenEyes™ development.</p>
+            <p class="text-justify text-white">The Apperta OpenEyes™ Committee comprises clinicians, informaticians and IT experts who combine in-depth knowledge of clinical ophthalmology with a deep and detailed understanding of software who oversee OpenEyes™ development.</p>
 
 {% assign rows = site.members.size | divided_by: 3.0 | ceil %}
 {% for i in (1..rows) %}
@@ -281,7 +289,7 @@ layout: default
       <div class="container text-center">
 	  <div class="col-lg-10 mx-auto">
       
-        <!-- ADD CODE when user hovers--><h2 class="mb-4">Some of our OpenEyes™ </br>Enterprise Implementations</h2>
+        <!-- ADD CODE when user hovers--><h2 class="mb-4" style="color:#28303b">Some of our OpenEyes™ </br>Enterprise Implementations</h2>
 		<hr class="my-4">
 		<div class="row"> 
 		<p align="left"></p>
@@ -314,7 +322,7 @@ layout: default
 
 </div>
 </section>
- <section class="text-black" id="community-users" style="background-color:#a9b9b2">
+ <section class="text-dark" id="community-users" style="background-color:#8c8c8c">
       <div class="container text-center">
 	  <div class="col-lg-10 mx-auto">
         <h2 class="mb-4">Some of our OpenEyes™ </br>Community Implementations</h2>
@@ -348,8 +356,7 @@ layout: default
         </div>
 
 </div>
-       </br>
-</br>	  
+  
 </div>
       </div>
     </section>
