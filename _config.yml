@@ -7,7 +7,7 @@
 
 # Site settings
 title: OpenEyes
-email: info@openeyes.org.uk
+email: openeyes@apperta.org
 description: > # this means to ignore newlines until "baseurl:"
   OpenEyes™ is an Electronic Medical Record (EMR) application for ophthalmology, which enables clinicians to access all of the information they need about their patients in one place.
 baseurl: "/" # the subpath of your site, e.g. /blog
