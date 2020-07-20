@@ -254,7 +254,8 @@ title:  "A look at OpenEyes"
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        <a class="portfolio-box" href="/img/features/fullsize/l-examination-event-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-examination-event-lg.jpg" alt=""></a>
+        <iframe src="https://player.vimeo.com/video/407576008" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<!--        <a class="portfolio-box" href="/img/features/fullsize/l-examination-event-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-examination-event-lg.jpg" alt=""></a>-->
         <div class="card-body">
           <p class="card-text">The examination event is one of many different events that can be used to document a patient examination, investigation or procedure. It can be customised by the selection of one of many elements that are displayed on the left hand side of the screen.</p>
         </div>
@@ -281,7 +282,8 @@ title:  "A look at OpenEyes"
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        <a class="portfolio-box" href="/img/features/fullsize/r-eyedraw-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/r-eyedraw-lg.jpg" alt=""></a>
+        <iframe src="https://player.vimeo.com/video/407633309" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <!--            <a class="portfolio-box" href="/img/features/fullsize/r-eyedraw-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/r-eyedraw-lg.jpg" alt=""></a>-->
         <div class="card-body">
           <p class="card-text">OpenEyes provides a rich graphical set of tools (Eyedraw) to document the appearance of the eye. These serve as visual metaphors for the eye examination. The drawing objects are called doodles which can be used to make an automatic diagnosis. The anterior segment eyedraw links en face and side views to document anterior chamber pathology, in this case, thinning of the cornea.</p>
         </div>
@@ -466,7 +468,8 @@ title:  "A look at OpenEyes"
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        <a class="portfolio-box" href="/img/features/fullsize/l-lightning-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-lightning-lg.jpg" alt=""></a>
+      <iframe src="https://player.vimeo.com/video/407543547" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <!--<a class="portfolio-box" href="/img/features/fullsize/l-lightning-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-lightning-lg.jpg" alt=""></a>-->
         <div class="card-body">
           <p class="card-text">OpenEyes supports the viewing of documents at video refresh rates using the Lightning viewer. This allows you to view a stack of OCT images as fast as you might flick through a stack of cards. The lightning viewer supports this feature for all documents or images  in OpenEyes.</p>
         </div>
@@ -621,7 +624,9 @@ title:  "A look at OpenEyes"
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        <a class="portfolio-box" href="/img/features/fullsize/l-whiteboard-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-whiteboard-lg.jpg" alt=""></a>
+      <iframe src="https://player.vimeo.com/video/430478842" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+        <!--<a class="portfolio-box" href="/img/features/fullsize/l-whiteboard-lg.jpg"><img class="card-img-top" src="/img/features/fullsize/l-whiteboard-lg.jpg" alt=""></a>-->
         <div class="card-body">
           <p class="card-text">OpenEyes will display key data for a selected operation on a whiteboard- this is usually a large digital display in the operating theatre that can be seen by all staff. It supports activity around the WHO checks and ensures that everyone knows the case, side, procedure and, for cataract surgery, the lens type and power. It also displays systemic and ocular risk factors relevant to the case.</p>
         </div>
