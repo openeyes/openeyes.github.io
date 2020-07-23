@@ -1,7 +1,7 @@
 ---
-layout: singlePage
+layout: news
 ---
-<section class="bg-primary text-white" id="news-header" style="padding-bottom:50px">
+<section class="text-white" id="news-header" style="padding-bottom:50px; background-color:#8c8c8c">
       <div class="container text-center">
         <h2>{{ page.title }}</h2>
 		 <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
