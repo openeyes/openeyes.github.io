@@ -6,6 +6,7 @@ date: 2020-12-16 11:00
 thumbnail: img/news/nhs-scotland.png
 categories: news
 description:
+published: false
 --- 
 
 NDS* has been working with colleagues in NHS Scotland, Scottish Government and Apperta to create a national Electronic Patient Record (EPR) for eyecare services in Scotland. This once for Scotland approach forms part of the Scottish Government’s National Eyecare Workstream and is a game-changer for eye care services. Using OpenEyes, the open-source Ophthalmic EPR, we have helped create a service that will allow eyecare records to be shared across primary and secondary care and stored using the National Digital Platform for health and care.
