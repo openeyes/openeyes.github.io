@@ -6,7 +6,7 @@ date: 2020-12-16 11:00
 thumbnail: img/news/openeyes-openehr.png
 categories: news
 description:
-published: false
+published: true
 --- 
 
 The Apperta Foundation has initiated a project which will enable customers who wish to adopt an OpenEyes/openEHR bimodal implementation.
