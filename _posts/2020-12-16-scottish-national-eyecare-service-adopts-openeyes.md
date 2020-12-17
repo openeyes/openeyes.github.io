@@ -1,7 +1,7 @@
 ---
 layout: post
 url: 
-title: "Scottish National Eyecare Service utilises OpenEyes"
+title: "Scottish National Eyecare Service adopts OpenEyes"
 date: 2020-12-16 11:00
 thumbnail: img/news/nhs-scotland.png
 categories: news
