@@ -1,5 +1,5 @@
 ---
-name: Prof. James Morgan
+name: James E Morgan MA DPhil FRCOphth 
 photo: '/img/James.jpg'
-title: Apperta OpenEyes Committee Chair
+title: Professor of Ophthalmology<br> Cardiff University 
 ---

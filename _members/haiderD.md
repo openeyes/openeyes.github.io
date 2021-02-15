@@ -1,5 +1,5 @@
 ---
-name: David Haider
+name: Mr David Haider
 photo: '/img/david.jpg'
-title: CCIO Bolton Foundation Trust
+title: Consultant Ophthalmologist and CCIO<br> Bolton Foundation Trust
 ---

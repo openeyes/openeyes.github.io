@@ -1,6 +1,6 @@
 ---
-name: Andy Barker
+name: Mr Andy Barker
 photo: '/img/andy.jpg'
-title: IT Director, East Kent Hospitals
+title: IT Director <br> East Kent Hospitals
 ---
 

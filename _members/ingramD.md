@@ -1,6 +1,6 @@
 ---
-name: David Ingram
+name: Professor David Ingram
 photo: '/img/davidI.jpg'
-title: President and Founder of <i>open</i>EHR
+title: Emeritus Professor of Health Informatics<br> University College London
 ---
 

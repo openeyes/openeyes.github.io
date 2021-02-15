@@ -1,5 +1,5 @@
 ---
-name: Carole Jones
+name: Miss Carole A Jones
 photo: '/img/caryl_jones.jpg'
-title: Consultant Ophthalmologist, Maidstone and Tunbridge Wells NHS Trust
+title: Consultant Ophthalmologist <br> Maidstone and Tunbridge Wells NHS Trust
 ---
