@@ -23,7 +23,6 @@ collections:
   - oeusers
   - posts
 
-
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
