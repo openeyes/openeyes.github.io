@@ -20,7 +20,7 @@ title:  "Privacy & Cookie Policy"
 
 <p>The Apperta Foundation is a non-profit community interest company, led by clinicians to promote open systems and standards for digital health, including the development and promotion of the OpenEyes™ open source progrmme. OpenEyes is committed to protecting your privacy. At no time is your private information shared with third parties that have no right to that information. All collected information will be protected consistent with the principles of the Data Protection Act 1998. Below are examples of what we do with your information. openeyes.org.uk contains hyperlinks to websites owned and operated by third parties. These third party websites have their own privacy policies, and are also likely to use cookies, and we therefore urge you to review them. They will govern the use of personal information you submit, which may also be collected by cookies whilst visiting these websites. We do not accept any responsibility or liability for the privacy practices of such third party websites and your use of such websites is at your own risk.</p>  
 
-<h3>When Accessing openeyes.org.uk</h3>    
+<h3>When Accessing openeyes.apperta.org</h3>    
 
 <p>We may collect and store information for statistical purposes. The following are representative of the types of information that may be collected and stored about your visit:</p>
 <ul>
@@ -33,7 +33,7 @@ title:  "Privacy & Cookie Policy"
 
 <h3>When Sending Us Email: </h3> 
 
-<p>When you send us an electronic mail (email) message (e.g. to info@openeyes.org.uk), you may be sending personal information such as your name, address, and email address. We may store this information in order to respond to your request or otherwise resolve the subject matter of the email. Under limited circumstances, including requests from government, we may be required by law to disclose the information you submit. Remember that email is not necessarily secure. If your communication is very sensitive, you may want to contact us via an alternate means..</p>  
+<p>When you send us an electronic mail (email) message (e.g. to openeyes@apperta.org), you may be sending personal information such as your name, address, and email address. We may store this information in order to respond to your request or otherwise resolve the subject matter of the email. Under limited circumstances, including requests from government, we may be required by law to disclose the information you submit. Remember that email is not necessarily secure. If your communication is very sensitive, you may want to contact us via an alternate means..</p>  
 
 <h3>When Searching and Browsing: </h3> 
 
