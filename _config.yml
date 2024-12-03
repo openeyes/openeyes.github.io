@@ -22,6 +22,7 @@ collections:
   - products
   - oeusers
   - posts
+  - partners
 
 # Build settings
 markdown: kramdown

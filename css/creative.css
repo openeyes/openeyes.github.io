@@ -324,6 +324,20 @@ header.masthead h1 {
     animation: slide 120s linear infinite; /* Adjust timing to control speed */
 }
 
+#partners .logos-inner {
+    animation: slide 30s linear infinite; /* Override duration to 30s for #partners */
+  }
+
+#partners .logos-inner:hover {
+    animation-play-state: paused !important;
+}
+
+#partners .logos-slide {
+    flex: 0 0 auto;
+    position: relative;
+    margin: 0 10px;
+}
+
 .logos-slide {
     flex: 0 0 auto;
     position: relative;
