@@ -320,12 +320,16 @@ header.masthead h1 {
 
 .logos-inner {
     display: flex;
+    flex-wrap: nowrap;
     height: 100px;
     animation: slide 120s linear infinite; /* Adjust timing to control speed */
 }
 
 #partners .logos-inner {
     animation: slide 30s linear infinite; /* Override duration to 30s for #partners */
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
   }
 
 #partners .logos-inner:hover {
