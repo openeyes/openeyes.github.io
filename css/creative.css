@@ -320,7 +320,6 @@ header.masthead h1 {
 
 .logos-inner {
     display: flex;
-    flex-wrap: nowrap;
     height: 100px;
     animation: slide 120s linear infinite; /* Adjust timing to control speed */
 }
