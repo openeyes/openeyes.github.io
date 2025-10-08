@@ -8,7 +8,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	<meta name="referrer" content="same-origin">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; upgrade-insecure-requests">
+	<meta http-equiv="Content-Security-Policy" content="
+default-src 'self';
+img-src 'self' data:;
+style-src 'self' 'unsafe-inline' https://use.fontawesome.com https://kit-free.fontawesome.com;
+script-src 'self' https://kit.fontawesome.com;
+font-src 'self' data: https://use.fontawesome.com https://ka-f.fontawesome.com;
+connect-src 'self' https://ka-f.fontawesome.com;
+object-src 'none';
+base-uri 'self';
+upgrade-insecure-requests">  
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
 	<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
 	  
